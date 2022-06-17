@@ -7,3 +7,20 @@ npm babel <-- convert es6 projecty to older versions
 
 import regenerator-runtime/runtime  <- polyfilling async await
 import core-js/stable               <- polyfilling everything else
+
+------------------------------------------------------------------
+
+object is a colection of name value pairs
+
+execution context -wrapina parasyta koda i globalu objekta(window) = this(window{...}), 
+execution context jame yra vykdomas kodas
+
+kintamieji kurie nepatalpinami funkcijoje priskiriami gloabaliam(window) objektui
+
+hoisting -- atmintyje sukuriamos vietos kintamiesiams(su reiksme undefined) pries execution phase, in creation phase. 
+
+single thhreaded: one command at the time (synchronous) execution
+
+invocation - running a function
+
+kaskart po funkcijos iskvietimo(invoking) sukuriamas naujas execution context ir funkcija uzkeliama i call stack virsu
