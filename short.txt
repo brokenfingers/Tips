@@ -67,3 +67,5 @@ functionName.bind(object, arg1, arg2) returns new function with attached 'this' 
 functionName.call(object, arg1, arg2) invokes-executes function by pointing 'this' o given object
 
 functionName.call(object, [arg1, arg2]) same as '.call' except it takes arguments in array
+
+underscore.js and lodash.com <-- open source websites, functions and for better understanding functional programming
