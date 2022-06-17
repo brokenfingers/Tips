@@ -1,0 +1,9 @@
+npm Parcel <-- js bundleris.  conpressing project for final version
+
+
+
+npm babel <-- convert es6 projecty to older versions
+
+
+import regenerator-runtime/runtime  <- polyfilling async await
+import core-js/stable               <- polyfilling everything else
