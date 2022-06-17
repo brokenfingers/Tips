@@ -23,4 +23,16 @@ single thhreaded: one command at the time (synchronous) execution
 
 invocation - running a function
 
-kaskart po funkcijos iskvietimo(invoking) sukuriamas naujas execution context ir funkcija uzkeliama i call stack virsu
+kaskart po funkcijos iskvietimo(invoking) sukuriamas naujas execution context ir funkcija uzkeliama i call stack virsu.
+every execution context has its own variable envirament
+
+scope - is where a variable is available in code
+
+primitive variable type means tha it has only one value
+
+
+a=b=c=0  -asociating from right to left. returning value not the reference
+
+a< b< c from left to right
+
+coercion - converting one value to another
