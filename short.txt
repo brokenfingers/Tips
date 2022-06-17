@@ -19,7 +19,7 @@ kintamieji kurie nepatalpinami funkcijoje priskiriami gloabaliam(window) objektu
 
 hoisting -- atmintyje sukuriamos vietos kintamiesiams(su reiksme undefined) pries execution phase, in creation phase. 
 
-single thhreaded: one command at the time (synchronous) execution
+single threaded: one command at the time (synchronous) execution
 
 invocation - running a function
 
@@ -36,3 +36,34 @@ a=b=c=0  -asociating from right to left. returning value not the reference
 a< b< c from left to right
 
 coercion - converting one value to another
+
+expression - a unit of code that results in a value
+
+function fncName(){}   <-- function statement
+let fncName = function(){}  <-- function expression
+
+
+function names(name1, name2, ...other) {
+console.log(others)
+
+}
+
+names('jonas', 'petras', 'dovydas', 'saulius') //dovydas, saulius
+
+immediately Invoked Function Expression (IIFE)
+let name = function(nn){
+    return 'vardas'+nn;
+}()
+
+immediately Invoked Function Expression (IIFE)
+(function(name){
+    console.log(name)
+}('John'))
+
+console.log(name('tomas')) // expression 
+function currying <-- creating a copy of a function but with some present elements
+functionName.bind(object, arg1, arg2) returns new function with attached 'this' to an argument. arguments then are permanently joined with newly created function
+
+functionName.call(object, arg1, arg2) invokes-executes function by pointing 'this' o given object
+
+functionName.call(object, [arg1, arg2]) same as '.call' except it takes arguments in array
