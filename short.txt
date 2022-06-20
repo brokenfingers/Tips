@@ -116,3 +116,9 @@ TypeScript
 tsc index.ts  <- to compile
 
 ts-node <- used to compile typescript and run generated js
+
+
+type annotations word - code we add to tell Typescript what type of value  a variable has (manual ), always for a functions
+type inference word <- typescript tries to figure out what type of value a variable refers to (auto), almost always for variablebles
+
+when you use a variable declaration and initialization then typescript find a type by itself(type inference)
