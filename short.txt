@@ -69,3 +69,38 @@ functionName.call(object, arg1, arg2) invokes-executes function by pointing 'thi
 functionName.call(object, [arg1, arg2]) same as '.call' except it takes arguments in array
 
 underscore.js and lodash.com <-- open source websites, functions and for better understanding functional programming
+
+reflection word - an objeckt can look at itself, listing and changing its properties and methods
+
+.hasOwnProperty checks if an object has own property, __proto__ not included
+
+function constructors are a function helping to create objects
+
+function Person(firstName, lastName) {
+    this.firstName = firstName,
+    this.lastName = lastName
+}
+var john = new Person() , new operator creates new empty object, Person() invokes a function. this points to newly created object. If there is no return word then it return the whole object
+
+Person.prototype.getFullName = function() {
+    return this.lastName + ' ' + this.firstName
+}
+
+console.log(john.getFullName)
+
+momentsjs.com parse, validate, manipulate and display dates in JavaScript
+
+
+let person = {
+    firstName: 'Default',
+    lastName: 'Default',
+    greet: function() {
+        return 'Hi' + ' ' + this.firstName;
+    }
+}
+let john = Object.create(person) creates empty object with prototype of person  (new way)
+john.firstName = 'John'  overiding person prototype
+
+console.log(john instanceof Person) check if john is instance of Person
+
+
