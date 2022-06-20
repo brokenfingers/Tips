@@ -104,3 +104,15 @@ john.firstName = 'John'  overiding person prototype
 console.log(john instanceof Person) check if john is instance of Person
 
 
+visa 3/ iskyrus neziureti,   tada 5typescrip,  tada 4 react ir gryzt i 3 pabaigt
+
+Transpile word- convert the syntax of one programming language to another. TypeScript(madeb by Miscrosoft) ir processed by 'transpilers' and converted to Javascript language
+
+Thenable word- an object that has  a 'then' function
+
+-------------------------------------------------------------------------------------
+TypeScript
+
+tsc index.ts  <- to compile
+
+ts-node <- used to compile typescript and run generated js
