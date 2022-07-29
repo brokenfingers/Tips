@@ -126,3 +126,5 @@ when you use a variable declaration and initialization then typescript find a ty
 Classes - its a blueprint to create an object with  some fields(values) and methods(functions) to represent a 'thing'
 
 Inheritance/Abstract classes is used to make inheritance not for new class creation ( abstract class)
+
+
